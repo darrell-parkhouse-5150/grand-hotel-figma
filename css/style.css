@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-family: "Inter";
+}
+
+.mobile-container {
+  width: 375px;
+  height: 800px;
+  overflow: hidden;
+}
+
+.splash {
+  background-color: #2853af;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.splash .app-title {
+  color: #fff;
+  font-family: "Inter";
+  text-transform: capitalize;
+  font-weight: normal;
+}
+.splash p {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 8px;
+}
