@@ -37,3 +37,41 @@ body {
   color: #fff;
   margin-top: 8px;
 }
+
+.on-board-one {
+  height: 800px;
+  width: 375px;
+  background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("../../img/On-Boarding-1.png");
+  background-size: cover; /* Ensure the image covers the entire element */
+  background-position: center; /* Center the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.on-board-one .text-box {
+  position: absolute;
+  z-index: 5;
+}
+.on-board-one .app-title {
+  color: #fff;
+}
+.on-board-one p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 26px;
+  line-height: 21px;
+}
+.on-board-one button {
+  width: 250px;
+  padding: 16px;
+  background: #2853af;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  float: left;
+  position: absolute;
+  top: 490px;
+  border-radius: 8px;
+}
