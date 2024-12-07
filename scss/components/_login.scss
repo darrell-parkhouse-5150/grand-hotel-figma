@@ -1,3 +1,5 @@
+@import "../partials/mixins";
+
 .app-title {
     text-align: center;
     text-transform: capitalize;
@@ -57,5 +59,51 @@
 
     input[type="checkbox"] {
         max-width: 16px;
+    }
+
+    button {
+        width: 100%;
+        border:none;
+        padding: 16px 0;
+
+        @include set-bg-color($clr-primary-700);
+        @include set-font-color(#fff);
+        @include border-radius(8px);
+
+        font-size: $md-font-size;
+        font-weight: normal;
+        text-transform: capitalize;
+        margin-top: 30px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: darken($clr-primary-700, 5%);
+        }
+    }
+
+    .sep {
+        height: 1px;
+        background-color: #ccc;
+        margin-top: 40px;
+    }
+
+    .social-icons {
+        margin-top: 40px;
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    p {
+        @include set-font-color(darken(#C1C7CF, 10%));
+        text-align: center;
+        margin-top: 34px;
+
+        &:first-letter {
+            text-transform: capitalize;
+            
+        }
     }
 }
