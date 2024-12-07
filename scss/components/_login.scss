@@ -1,0 +1,61 @@
+.app-title {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.small-text {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.login-form {
+    
+    label {
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    input {
+        background-color: #f6f6f6;
+        border: none;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .form-group {
+        margin-bottom: 30px;
+    }
+
+    .remember-me {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        label {
+            margin-top: 5px;
+            font-weight: normal;
+            margin-left: 8px;
+            text-transform: capitalize;
+        }
+    }
+
+    .forgot {
+        text-decoration: none;
+        font-size: 14px;
+        
+    }
+
+    .utility {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+
+    input[type="checkbox"] {
+        max-width: 16px;
+    }
+}

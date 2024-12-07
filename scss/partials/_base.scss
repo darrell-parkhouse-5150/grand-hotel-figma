@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: "Inter";
+}
+.mobile-container {
+    width: 375px;
+    height: 800px;
+    overflow: hidden;
+}
