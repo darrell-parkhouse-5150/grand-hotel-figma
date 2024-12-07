@@ -1,0 +1,45 @@
+
+
+.on-board-one {
+    height: 800px;
+    width: 375px;
+    background: 
+        linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+        url('../../img/On-Boarding-1.png');
+    background-size: cover; /* Ensure the image covers the entire element */
+    background-position: center; /* Center the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text-box {
+        position: absolute;
+        z-index: 5;
+    }
+    .app-title {
+        color: #fff;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 26px;
+        line-height: 21px;
+    }
+
+    button {
+        width: 250px;
+        padding: 16px;
+        background: $clr-splash-bg;
+        border:none;
+        font-size:18px;
+        color: #fff;
+        text-transform: capitalize;
+        float: left;
+        position: absolute;
+        top: 490px;
+
+        border-radius: 8px;
+    }
+}
