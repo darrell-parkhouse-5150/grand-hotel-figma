@@ -1,0 +1,32 @@
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+input {
+    background-color: #f6f6f6;
+    border: none;
+    width: 100%;
+    padding: 15px;
+}
+
+button {
+    width: 100%;
+    border:none;
+    padding: 16px 0;
+
+    @include set-bg-color($clr-primary-700);
+    @include set-font-color(#fff);
+    @include border-radius(8px);
+
+    font-size: $md-font-size;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-top: 30px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($clr-primary-700, 5%);
+    }
+}
