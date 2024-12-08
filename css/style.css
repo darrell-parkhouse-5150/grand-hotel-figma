@@ -9,12 +9,19 @@ body {
   flex-direction: row;
   gap: 30px;
   font-family: "Inter";
+  background-color: #fafafa;
 }
 
 .mobile-container {
   width: 375px;
-  height: 800px;
+  height: auto;
+  padding-bottom: 30px;
   overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.mobile-container .container {
+  padding: 0 24px;
 }
 
 .splash {
@@ -74,4 +81,155 @@ body {
   position: absolute;
   top: 490px;
   border-radius: 8px;
+}
+
+.app-title {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+.small-text {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+.login-form label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.login-form input {
+  background-color: #f6f6f6;
+  border: none;
+  width: 100%;
+  padding: 15px;
+}
+.login-form .form-group {
+  margin-bottom: 30px;
+}
+.login-form .remember-me {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.login-form .remember-me label {
+  margin-top: 5px;
+  font-weight: normal;
+  margin-left: 8px;
+  text-transform: capitalize;
+}
+.login-form .forgot {
+  text-decoration: none;
+  font-size: 14px;
+}
+.login-form .utility {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-form input[type=checkbox] {
+  max-width: 16px;
+}
+.login-form button {
+  width: 100%;
+  border: none;
+  padding: 16px 0;
+  background-color: #2761ce;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: capitalize;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.login-form button:hover {
+  background-color: #2357b9;
+}
+.login-form .sep {
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 40px;
+}
+.login-form .social-icons {
+  margin-top: 40px;
+}
+.login-form .social-icons ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.login-form p {
+  color: #a4adb9;
+  text-align: center;
+  margin-top: 34px;
+}
+.login-form p:first-letter {
+  text-transform: capitalize;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input {
+  background-color: #f6f6f6;
+  border: none;
+  width: 100%;
+  padding: 15px;
+}
+
+button {
+  width: 100%;
+  border: none;
+  padding: 16px 0;
+  background-color: #2761ce;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: capitalize;
+  margin-top: 30px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #2357b9;
+}
+
+.back-arrow-icon {
+  background: url("../img/back-arrow.svg") no-repeat;
+  width: 24px;
+  height: 25px;
+}
+
+.status-bar {
+  background: url("../img/status-bar.svg") no-repeat;
+  width: 375px;
+  height: 55px;
+}
+
+.google-icon {
+  background: url("../img/google-icon.svg") no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.apple-icon {
+  background: url("../img/apple-icon.svg") no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.facebook-icon {
+  background: url("../img/facebook-icon.svg") no-repeat;
+  width: 24px;
+  height: 24px;
 }
